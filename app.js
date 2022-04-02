@@ -7,6 +7,8 @@ const userModel = require('./model/userModel')
 
 // const bot = new Telegraf('5111905236:AAGw-gOxgKWHxBujRAdOh5XhLvyc7k179FA')
 
+const bot = new Composer()
+
 bot.use(session())
 
 mongoose.connect('mongodb+srv://rasedul20:rasedul20@telegramproject.gwtce.mongodb.net/groupHandlerBot', {
